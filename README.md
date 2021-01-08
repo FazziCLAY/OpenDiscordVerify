@@ -1,1 +1,2 @@
 # OpenDiscordVerify
+Minecraft discord verifycation. 
