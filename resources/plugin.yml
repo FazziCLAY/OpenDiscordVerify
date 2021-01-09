@@ -1,6 +1,7 @@
 name: DiscordVerify
 version: 1.0
 main: ru.fazziclay.projects.discordverify.Main
+api-version: 1.13
 author: https://fazziclay.ru
 website: https://projects.fazziclay.ru/r/DiscordVerify
 commands:
