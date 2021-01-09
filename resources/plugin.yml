@@ -1,0 +1,15 @@
+name: DiscordVerify
+version: 1.0
+main: ru.fazziclay.projects.discordverify.Main
+author: https://fazziclay.ru
+website: https://projects.fazziclay.ru/r/DiscordVerify
+commands:
+  code:
+    description: get discord verifycation code
+    usage: code
+    permission: discordverify.command.code
+
+permissions:
+  discordverify.command.code:
+    default: true
+    description: command code use
