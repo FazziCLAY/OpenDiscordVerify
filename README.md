@@ -1,7 +1,7 @@
 # OpenDiscordVerify
 Minecraft discord verify - Плагин для верефикации своей учётной записи discord через minecraft.
 
-## plugin.yml:
+# plugin.yml:
 ```yml
 discord:
   bot-token: ''
@@ -24,13 +24,13 @@ messages:
   discord-code-not-found: 'Code not found.'
 
 ```
-### Вкладка discord:
-| **bot-token** - Токен discord бота.
-| **channel** - Id канала дискорд. Ниже будет пояснение.
-| **role** - Id роли которая будет выдана при успешной верефикации. 
-| **mode** - Если 'default' то в *channel* нужно будет написать полученый код командой /code. Если 'api' то в *channel* при команде /code будет отправлено сообщение с содержканием JSON компонента. Об этом ниже.
-| **change-nick-in-minecraft** - Если true, то при успешной верефикации ник в discord будет установлен на такой какой и в minecraft.
-| **message-delete-delay** - Через сколько секунд будет удалено сообщение бота об неуспешной верефикации в канале discord
+## Вкладка discord:
+ **bot-token** - Токен discord бота.
+ **channel** - Id канала дискорд. Ниже будет пояснение.
+ **role** - Id роли которая будет выдана при успешной верефикации. 
+ **mode** - Если 'default' то в *channel* нужно будет написать полученый код командой /code. Если 'api' то в *channel* при команде /code будет отправлено сообщение с содержканием JSON компонента. Об этом ниже.
+ **change-nick-in-minecraft** - Если true, то при успешной верефикации ник в discord будет установлен на такой какой и в minecraft.
+ **message-delete-delay** - Через сколько секунд будет удалено сообщение бота об неуспешной верефикации в канале discord.
 
 ### Вкладка code-generation:
-123
+ **delay** - Задержка команды /code в секундах.
