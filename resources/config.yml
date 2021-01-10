@@ -1,18 +1,18 @@
 discord:
   bot-token: ''
-  channel: 7003271437920624252
-  role: 700040569473564672
+  channel: 7003271437920624251
+  role: 700040569473564671
   mode: default
   change-nick-in-minecraft: true
-  message-delete-delay: 7
+  message-delete-delay: 5
 
 code-generation:
-  delay: 35
+  delay: 30
   minimum: 10000
   maximum: 99999
 
 messages:
-  code-command: '&eYou code &a%CODE%&e, use it in discord within 35 seconds.'
+  code-command: '&eYou code &a%CODE%&e, use it in discord within 30 seconds.'
   code-expired: '&cCode expired!'
   code-you-already: '&eYou have already been given a code!'
   account-linked: '&aAccount linked! Account: &b%USER_NAME%#%USER_DISCRIMINATOR%&a!'
